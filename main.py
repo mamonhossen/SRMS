@@ -13,8 +13,8 @@ Loading student records from students.csv... Done!
 1. Add Student
 2. View Students
 3. Delete/remove Student
-4. Search by Name
-5. Search by Email
+4. Search Student by Name
+5. Search Student by Email
 6. Exit
 """)
 
@@ -56,7 +56,7 @@ def main():  # main function of the programme
                 display_students(manager.search_by_email(email))
 
             elif choice == "6":
-                print("👋 Program exited")
+                print("👋 Program exited, Thank You")
                 break
 
             else:

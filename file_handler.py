@@ -12,7 +12,7 @@ class FileHandler:
 
     FILE_NAME = "students.csv"
 
-    @staticmethod   # possible to call by class except object
+    @staticmethod   #  call by class except object
     def load_students():
         """
         Loads students from CSV file.
@@ -35,7 +35,7 @@ class FileHandler:
                 }
         return students
 
-    @staticmethod   # possible to call by class except object
+    @staticmethod   #  call by class except object
     def save_students(students):
         """
         Saves all student records into CSV file.
